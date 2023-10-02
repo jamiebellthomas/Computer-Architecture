@@ -117,32 +117,37 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(110,470)" to="(440,470)"/>
     <wire from="(530,280)" to="(530,340)"/>
     <wire from="(530,340)" to="(540,340)"/>
+    <comp lib="1" loc="(340,140)" name="NAND Gate"/>
+    <comp lib="1" loc="(520,280)" name="NAND Gate"/>
+    <comp lib="1" loc="(420,380)" name="NAND Gate"/>
     <comp lib="0" loc="(200,140)" name="Pin">
+      <a name="tristate" val="false"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(200,280)" name="Pin">
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="0" loc="(200,350)" name="Pin">
-      <a name="label" val="D"/>
-    </comp>
-    <comp lib="0" loc="(200,210)" name="Pin">
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="1" loc="(520,280)" name="NAND Gate"/>
-    <comp lib="1" loc="(340,420)" name="NAND Gate"/>
-    <comp lib="1" loc="(440,250)" name="NAND Gate"/>
-    <comp lib="1" loc="(520,160)" name="NAND Gate"/>
+    <comp lib="0" loc="(720,240)" name="Probe"/>
     <comp lib="0" loc="(200,420)" name="Pin">
+      <a name="tristate" val="false"/>
       <a name="label" val="E"/>
     </comp>
-    <comp lib="1" loc="(340,140)" name="NAND Gate"/>
+    <comp lib="1" loc="(440,250)" name="NAND Gate"/>
+    <comp lib="1" loc="(350,280)" name="NAND Gate"/>
+    <comp lib="0" loc="(200,280)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(200,210)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(340,420)" name="NAND Gate"/>
+    <comp lib="1" loc="(510,390)" name="NAND Gate"/>
     <comp lib="1" loc="(680,240)" name="NAND Gate"/>
-    <comp lib="0" loc="(720,240)" name="Probe"/>
     <comp lib="1" loc="(600,350)" name="NAND Gate"/>
     <comp lib="1" loc="(340,350)" name="NAND Gate"/>
-    <comp lib="1" loc="(350,280)" name="NAND Gate"/>
-    <comp lib="1" loc="(420,380)" name="NAND Gate"/>
-    <comp lib="1" loc="(510,390)" name="NAND Gate"/>
+    <comp lib="1" loc="(520,160)" name="NAND Gate"/>
+    <comp lib="0" loc="(200,350)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D"/>
+    </comp>
   </circuit>
 </project>

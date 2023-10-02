@@ -156,55 +156,56 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(640,600)" to="(730,600)"/>
     <wire from="(780,670)" to="(810,670)"/>
     <wire from="(800,590)" to="(800,650)"/>
+    <wire from="(220,450)" to="(230,450)"/>
     <wire from="(410,660)" to="(490,660)"/>
     <wire from="(290,150)" to="(290,520)"/>
     <wire from="(310,290)" to="(310,660)"/>
     <wire from="(510,320)" to="(590,320)"/>
     <wire from="(590,360)" to="(670,360)"/>
     <wire from="(840,150)" to="(840,200)"/>
-    <comp lib="1" loc="(870,660)" name="NAND Gate"/>
-    <comp lib="1" loc="(950,550)" name="NAND Gate"/>
-    <comp lib="1" loc="(890,220)" name="OR Gate"/>
-    <comp lib="1" loc="(690,690)" name="NAND Gate"/>
-    <comp lib="0" loc="(230,450)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="0" loc="(230,660)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="D"/>
-    </comp>
-    <comp lib="1" loc="(620,230)" name="NOT Gate"/>
-    <comp lib="1" loc="(620,320)" name="NOT Gate"/>
-    <comp lib="1" loc="(790,590)" name="NAND Gate"/>
-    <comp lib="1" loc="(670,320)" name="AND Gate"/>
-    <comp lib="1" loc="(620,590)" name="NAND Gate"/>
-    <comp lib="1" loc="(740,230)" name="AND Gate"/>
-    <comp lib="1" loc="(710,560)" name="NAND Gate"/>
-    <comp lib="1" loc="(780,700)" name="NAND Gate"/>
-    <comp lib="1" loc="(620,100)" name="NOT Gate"/>
-    <comp lib="0" loc="(1070,210)" name="Probe"/>
-    <comp lib="1" loc="(610,450)" name="NAND Gate"/>
-    <comp lib="0" loc="(230,730)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="E"/>
-    </comp>
-    <comp lib="1" loc="(590,360)" name="NOT Gate"/>
-    <comp lib="1" loc="(750,320)" name="AND Gate"/>
-    <comp lib="1" loc="(670,230)" name="AND Gate"/>
-    <comp lib="1" loc="(670,120)" name="AND Gate"/>
-    <comp lib="1" loc="(610,660)" name="NAND Gate"/>
-    <comp lib="1" loc="(1000,230)" name="OR Gate"/>
-    <comp lib="1" loc="(790,470)" name="NAND Gate"/>
-    <comp lib="1" loc="(610,730)" name="NAND Gate"/>
-    <comp lib="0" loc="(990,550)" name="Probe"/>
-    <comp lib="0" loc="(230,590)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
-    </comp>
     <comp lib="0" loc="(230,520)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
+    <comp lib="1" loc="(620,590)" name="NAND Gate"/>
+    <comp lib="1" loc="(590,360)" name="NOT Gate"/>
+    <comp lib="1" loc="(610,730)" name="NAND Gate"/>
+    <comp lib="1" loc="(870,660)" name="NAND Gate"/>
+    <comp lib="1" loc="(710,560)" name="NAND Gate"/>
+    <comp lib="1" loc="(670,320)" name="AND Gate"/>
+    <comp lib="1" loc="(780,700)" name="NAND Gate"/>
+    <comp lib="0" loc="(230,730)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="E"/>
+    </comp>
+    <comp lib="0" loc="(230,450)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="1" loc="(790,590)" name="NAND Gate"/>
+    <comp lib="1" loc="(610,450)" name="NAND Gate"/>
+    <comp lib="1" loc="(750,320)" name="AND Gate"/>
+    <comp lib="1" loc="(670,120)" name="AND Gate"/>
+    <comp lib="0" loc="(230,590)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="1" loc="(620,230)" name="NOT Gate"/>
+    <comp lib="1" loc="(610,660)" name="NAND Gate"/>
+    <comp lib="0" loc="(990,550)" name="Probe"/>
+    <comp lib="1" loc="(890,220)" name="OR Gate"/>
+    <comp lib="0" loc="(230,660)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="1" loc="(620,100)" name="NOT Gate"/>
+    <comp lib="1" loc="(740,230)" name="AND Gate"/>
+    <comp lib="1" loc="(620,320)" name="NOT Gate"/>
+    <comp lib="1" loc="(790,470)" name="NAND Gate"/>
+    <comp lib="1" loc="(1000,230)" name="OR Gate"/>
+    <comp lib="1" loc="(950,550)" name="NAND Gate"/>
+    <comp lib="0" loc="(1070,210)" name="Probe"/>
+    <comp lib="1" loc="(670,230)" name="AND Gate"/>
+    <comp lib="1" loc="(690,690)" name="NAND Gate"/>
   </circuit>
 </project>
