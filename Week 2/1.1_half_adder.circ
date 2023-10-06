@@ -55,28 +55,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(300,300)" to="(360,300)"/>
     <wire from="(300,360)" to="(360,360)"/>
+    <wire from="(410,340)" to="(440,340)"/>
     <wire from="(280,320)" to="(360,320)"/>
     <wire from="(280,260)" to="(360,260)"/>
     <wire from="(240,360)" to="(300,360)"/>
     <wire from="(280,260)" to="(280,320)"/>
     <wire from="(300,300)" to="(300,360)"/>
+    <wire from="(420,280)" to="(440,280)"/>
     <wire from="(240,260)" to="(280,260)"/>
+    <comp lib="1" loc="(410,340)" name="AND Gate"/>
+    <comp lib="0" loc="(440,340)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="C"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(440,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="0" loc="(240,260)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(410,340)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="C_out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(420,280)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="label" val="S"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="1" loc="(420,280)" name="XOR Gate"/>
-    <comp lib="1" loc="(410,340)" name="AND Gate"/>
     <comp lib="0" loc="(240,360)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
