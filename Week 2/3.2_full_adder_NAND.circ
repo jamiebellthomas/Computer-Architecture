@@ -53,33 +53,31 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(140,150)" to="(200,150)"/>
-    <wire from="(190,190)" to="(190,200)"/>
-    <wire from="(170,210)" to="(170,220)"/>
-    <wire from="(180,200)" to="(180,210)"/>
+    <wire from="(130,200)" to="(190,200)"/>
+    <wire from="(130,160)" to="(190,160)"/>
     <wire from="(240,210)" to="(240,220)"/>
     <wire from="(240,160)" to="(240,170)"/>
+    <wire from="(230,200)" to="(230,210)"/>
+    <wire from="(240,190)" to="(240,200)"/>
     <wire from="(140,190)" to="(190,190)"/>
-    <wire from="(130,200)" to="(180,200)"/>
-    <wire from="(150,170)" to="(200,170)"/>
+    <wire from="(140,150)" to="(190,150)"/>
     <wire from="(130,180)" to="(130,200)"/>
     <wire from="(130,160)" to="(130,180)"/>
-    <wire from="(170,220)" to="(200,220)"/>
+    <wire from="(150,210)" to="(190,210)"/>
+    <wire from="(150,170)" to="(190,170)"/>
+    <wire from="(220,150)" to="(250,150)"/>
     <wire from="(120,210)" to="(150,210)"/>
     <wire from="(140,150)" to="(140,190)"/>
     <wire from="(150,170)" to="(150,210)"/>
     <wire from="(120,150)" to="(140,150)"/>
-    <wire from="(180,210)" to="(200,210)"/>
-    <wire from="(150,210)" to="(170,210)"/>
-    <wire from="(230,200)" to="(250,200)"/>
-    <wire from="(230,150)" to="(250,150)"/>
-    <wire from="(190,200)" to="(200,200)"/>
+    <wire from="(220,190)" to="(240,190)"/>
+    <wire from="(220,160)" to="(240,160)"/>
     <wire from="(230,210)" to="(240,210)"/>
     <wire from="(240,220)" to="(250,220)"/>
-    <wire from="(230,160)" to="(240,160)"/>
     <wire from="(240,170)" to="(250,170)"/>
+    <wire from="(220,200)" to="(230,200)"/>
+    <wire from="(240,200)" to="(250,200)"/>
     <wire from="(120,180)" to="(130,180)"/>
-    <wire from="(130,160)" to="(200,160)"/>
     <comp lib="0" loc="(250,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -100,7 +98,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp loc="(230,150)" name="original"/>
+    <comp loc="(220,150)" name="original"/>
     <comp lib="0" loc="(250,150)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -117,7 +115,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="C_out"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(230,200)" name="NAND implementation"/>
+    <comp loc="(220,190)" name="NAND implementation"/>
   </circuit>
   <circuit name="original">
     <a name="circuit" val="original"/>
