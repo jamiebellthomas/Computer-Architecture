@@ -77,9 +77,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Q"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="6" loc="(73,215)" name="Text">
+      <a name="text" val="1 = OFF"/>
+    </comp>
     <comp lib="0" loc="(250,240)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="R'"/>
+    </comp>
+    <comp lib="6" loc="(82,235)" name="Text">
+      <a name="text" val="They shouldn't both be on"/>
     </comp>
     <comp lib="0" loc="(250,170)" name="Pin">
       <a name="tristate" val="false"/>
@@ -98,6 +104,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(360,230)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(72,192)" name="Text">
+      <a name="text" val="Active low"/>
     </comp>
   </circuit>
   <circuit name="D Latch Extension">
